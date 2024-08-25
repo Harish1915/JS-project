@@ -1,0 +1,13 @@
+
+body{
+    background-color: rgb(17, 110, 77);
+    padding: 200px;
+
+}
+.b:hover{
+    
+    opacity: 0.9;
+}
+.cntr{
+    margin-top: 200px;
+}

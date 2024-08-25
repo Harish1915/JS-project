@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .vd {
+        top: 0;
+        left: 0;
+        width: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    .divc{
+        color: rgb(162, 44, 44);
+        border: 2px solid rgb(230, 10, 234);
+        box-shadow: 2px -5px 15px 5px rgb(18, 17, 17);
+        padding: 35px;
+        text-align: center;
+        width: max-content;
+        margin: auto;
+        border-radius: 20px;
+        font-size: 25px;
+        backdrop-filter: blur(15px);
+        transition: 1s;
+    
+
+    }
+
+    .divc:hover{
+        transform: scale(1.1);
+z-index: 2;
+    }
+    .form{
+        height: 25px;
+        border-radius: 8px;
+    }
+    .submit-button{
+        font-size: 20px;
+        border-radius: 20px;
+        background-color: black;
+        color: aliceblue;
+        transition: 0.5s;
+    }
+    .submit-button:hover{
+        background: transparent;
+        cursor: pointer;
+        -webkit-text-stroke: 1px white;
+        color: transparent;
+    }
+    .cnt{
+        color: white;
+        text-align: center;
+        margin-top: 150px;
+        font-size: 60px;
+    }
+    .cnt:hover{
+        background: transparent;
+        -webkit-text-stroke: 2px white;
+        color: transparent;
+    }
+    .navbar{
+        float: right;
+    }
+    .unav a{
+        position: relative;
+        font-size: 20px;
+        color: rgb(245,237,237);
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 40px;
+        transition: 0.5s;
+
+    }
+    a:hover{
+        -webkit-text-stroke: 0.5px whitesmoke;
+        color: transparent;
+        background: transparent;
+        border: 2px solid orange;
+        border-radius: 8px;
+    }
+
+  </style>
+  <body>
+    <div class="navbar">
+      <ul class="unav">
+        <a href="./crickt.html">Home</a>
+        <a href="./open2.html">About</a>
+        <a href="./contactus.html">Contact</a>
+        <a href="./services.html">Services</a>
+      </ul>
+    </div>
+ <br>
+      <video autoplay muted loop class="vd">
+      <source src="./11755921-uhd_4096_2160.mp4" type="video/mp4" />
+    </video>
+    <h1 class="cnt">Contact Us</h1>
+    <div class="divc">
+        <form action="" class="cnt-form">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name" required class="form" placeholder="Name">
+            <br>
+            <br>
+            <label for="email">Your Email</label>
+            <input type="email" name="email" id="email" required class="form" placeholder="@gmail">
+            <br>
+            <br>
+            <label for="Mobile">Mobile Number</label>
+            <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10}" required class="form" placeholder="@123456789">
+            <br>
+            <br>
+            <label for="Message">Your Message</label>
+            <textarea name="Message" id="Message" row="5" cols="30" required class="form" placeholder="Message"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit" class="submit-button">
+            <div id="content-form-message" class="contact-message"></div>
+
+        </form>
+    </div>
+
+
+  </body>
+</html>

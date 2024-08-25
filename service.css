@@ -1,0 +1,189 @@
+
+
+
+
+.vs{
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+/* .d{
+    margin: 20px;
+} */
+
+
+.umpires{
+    
+    margin: 10px;
+border: 2px solid rgb(240, 229, 229);
+color: rgb(27, 24, 24);
+width: 250px;
+align-items: center;
+justify-content: center;
+border-radius: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+backdrop-filter: blur(15px);
+}
+.grounds{
+     
+    margin: 10px;
+border: 2px solid white;
+color: rgb(40, 35, 35);
+width: 250px;
+align-items: center;
+justify-content: center;
+border-radius: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+backdrop-filter: blur(15px);
+}
+.scorer{
+border: 2px solid white;
+color: rgb(29, 25, 25);
+width: 250px;
+align-items: center;
+justify-content: center;
+border-radius: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+backdrop-filter: blur(15px);
+}
+.service{
+background-color: transparent;
+/* height: 500px; */
+display: flex;
+gap:30px;
+border: 2px white solid;
+padding: 20px;
+width: max-content;
+align-items: center;
+justify-content: center;
+top: 500px;
+margin-top: 10px;
+border-radius: 20px;
+backdrop-filter: blur(15px);
+/* transition: 0.5s;
+transform: scale(1,1); */
+}
+/* .service:hover{
+width: max-content;
+} */
+.haa{
+font-size: 80px;
+color: aliceblue;
+margin-top: 80px;
+transition: 0.5s;
+}
+   
+.haa:hover{
+/* background: transparent; */
+
+color: transparent;
+-webkit-text-stroke: 1px rgb(250, 248, 248);
+}
+.contact{
+background-color: rgba(17, 11, 11, 0.886);
+color: white;
+width: 100px;
+height: 30px;
+border-radius: 40px;
+text-align: center;
+font-size: 18px;
+border:none;
+transition: 0.5s;
+}
+.contact:hover{
+background-color: transparent;
+color: black;
+border: 2px solid black;
+cursor: pointer;
+}
+.contact1{
+background-color: rgba(0, 0, 0, 0.886);
+color: white;
+width: 100px;
+height: 30px;
+border-radius: 20px;
+text-align: center;
+font-size: 18px;
+border:none;
+transition: 0.5s;
+}
+.contact1:hover{
+background-color: transparent;
+color: black;
+border: 2px solid black;
+cursor: pointer;
+}
+.contact2{
+background-color: rgba(0, 0, 0, 0.886);
+color: white;
+width: 100px;
+height: 30px;
+border-radius: 20px;
+text-align: center;
+font-size: 18px;
+border:none;
+transition: 0.5s;
+}
+.contact2:hover{
+background-color: transparent;
+color: black;
+border: 2px solid black;
+cursor: pointer;
+}
+.navbar{
+float: right;
+}
+.nav a{
+position: relative;
+font-size: 20px;
+color: rgb(245, 237, 237);
+text-decoration: none;
+font-weight: 500;
+margin-left: 40px;
+transition: 0.5s;
+
+}
+a{
+/* background-color: red; */
+width: 50px;
+border-radius: 4px;
+padding: 5px;
+transition: 0.5s;
+}
+a:hover{
+-webkit-text-stroke: 0.5px whitesmoke;
+color: transparent;
+background:transparent;
+border: 2px solid white;
+border-radius: 8px;
+
+
+}
+
+.btnl{
+width:130px;
+height: 30px;
+background: transparent;
+outline: none;
+border: 2px solid rgb(244, 236, 236);
+border-radius: 8px;
+cursor: pointer;
+font-size: 20px;
+transition: 0.5;
+margin-left: 40px;
+transition: 0.8s;
+color: goldenrod;
+background-color: rgba(49, 43, 43, 0.619);
+}
+.btnl:hover{
+background-color: rgba(27, 26, 26, 0.795);
+color: white;
+-webkit-text-stroke-color: 2px;
+background: transparent;
+-webkit-text-stroke-color: black;
+}drop-filter: blur(15px);

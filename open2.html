@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="stylesheet" href="./crickt.css"> -->
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <style>
+    img {
+      height: 300px;
+    }
+    .abt{
+      margin: 0%;
+     border: 2px solid red;
+     width: 500px;
+     margin: auto;
+     padding: 30px;
+     border-radius: 20px;
+     background: transparent;
+     backdrop-filter: blur(15px);
+     color: aliceblue;
+     transition: 1s;
+
+    }
+    .about:hover{
+    
+      transform: scale(1.1);
+      z-index: 2;
+    }
+
+    .header{
+    position: fixed;;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(211, 39, 39, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(255,255,255, .2);
+
+}
+.header span{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent,
+    rgba(255,255,255,.4), transparent);
+    transition: .5s;
+}
+.header:hover span
+{
+    left :100%
+}
+.logo
+{
+    color: brown;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+.nav a{
+     color: rgb(254, 254, 255);
+     font-size: 18px;
+     text-decoration: none;
+     margin-left: 35px;
+     font-weight: 500;
+     transition: 1s;
+}
+.nav a:hover
+{
+color: rgb(215, 29, 29);
+transform: scale(1.1);
+z-index: 2;
+
+}
+.about{
+  font-size: 60px;
+  text-align: center;
+  margin-top: 80px;
+}
+.about:hover{
+  background: transparent;
+  -webkit-text-stroke: 1px whitesmoke;
+  color: transparent;
+}
+.contact{
+
+  
+  color: rgb(244,239,239);
+  font-size: 25px;
+  border-radius: 20px;
+  background-color: black;
+  height: 40px;
+  transition: 0.5s;
+  
+}
+.contact:hover{
+  background: transparent;
+  -webkit-text-stroke: ipx whitesmoke;
+  color: transparent;
+}
+a{
+text-decoration: none;
+color: white;
+}
+body{
+  background:url(https://e0.pxfuel.com/wallpapers/314/359/desktop-wallpaper-cricket-ideas-in-2022-cricket-cricket-poster-cricket-logo-cricket-batting-thumbnail.jpg) no-repeat;
+  background-size: cover;
+  
+}
+/* .video2{
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  background-size: cover;
+  position: fixed;
+} */
+
+  </style>
+  <body>
+    <header class="header">
+       
+
+        <a href="#" class="logo">CRICKET BUZZ</a>
+       
+       
+        <span> </span>
+        
+        <nav class="nav">
+          <a href="./crickt.html">Home</a>
+          <a href="./open2.html">About</a>
+          <a href="./contactus.html">Contact</a>
+          <a href="./services.html">Services</a>
+          <a href="./crickt.html">Back to Home</a>
+        </nav>
+      </header>
+
+       
+      <!-- <video autoplay muted loop class="Video2">
+        <source src="./11755921-uhd_4096_2160.mp4" type="video/mp4">
+        
+      </video> -->
+<h1 class="about">About Us!</h1>
+<div class="abt"> 
+    <p>
+        "Welcome to"
+        <b>PRsccores!</b>
+        "We're passionate about cricket and committed to delivering the best cricket experienceto our users."
+    </p>
+    <br>
+    <b>Development Process:</b>
+    <p>
+        "Our platform was built using the following technologies and tools to deliver the best possible experience for our users.Used HTMl,CSS,JAVASCRIPT to build this project"
+    </p>
+    <br>
+    <p>
+        "The development process of this project started in March , 2024 with the aim to create a platform that would provide an easy and secure website The scoring system was developed and designed by "<b>HARISH KUMAR APPU</b>
+    </p>
+    <br>
+    <p>
+        "Our platform, which is available at [website URL], offers a wide range of features and exclusive content that will cater to every type of cricket fan. Stay up to date with the latest scores, player rankings, series schedules, and more. With our fast and user-friendly interface, you can easily find the information you need and enjoy a seamless experience."
+    </p>
+    <br>
+    <p>
+      "Reach out to us with any questions or comments using our contact form, and follow us on social media for the latest updates. We're excited to have you as part of our community!"
+
+    </p>
+    <br>
+    <center>
+      <button class="contact"><a href="./contactus.html">Contact</a> </button>
+    </center>
+</div>
+
+     
+      <!-- <center>
+          <div class="content">
+              <h1 class="app">"well come"<br>
+                  "to the"<br>
+                  "best"<br>
+                  scoring App<br><br>
+              </h1>
+              <p  class="app"> India's no.1 scoring App</p><br>
+              <button class="opn">OPEN </button>
+          </div>
+      </center> -->
+  
+  
+  
+      
+      
+      
+   
+<!--   
+    <img
+      src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      alt=""
+    /> -->
+
+    <script>
+      var h1 = document.getElementsByTagName("img");
+      debugger;
+      var currentimageid = localStorage.getItem("currentImage");
+      h1[0].setAttribute("src", localStorage.getItem("image" + currentimageid));
+
+
+    </script>
+  </body>
+</html>
